@@ -329,7 +329,7 @@ export class CustomUniversalEntityCard extends MushroomBaseCard<CustomUniversalE
         } else if (entityId.startsWith('input_button.')) {
             return 'var(--color-grey)';
         } else if (entityId.startsWith('media_player') || entityId.startsWith('vacuum')) {
-            return (ON_STATES.indexOf(state) >= 0) ? 'var(--color-green)' : 'var(--color-grey)';
+            return 'var(--color-grey)';
         } else if (ON_STATES.indexOf(state) < 0) {
             return 'var(--color-grey)';
         } else if (attributes.rgb_color) {
