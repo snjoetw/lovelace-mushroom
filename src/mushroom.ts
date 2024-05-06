@@ -23,4 +23,7 @@ import "./cards/title-card/title-card";
 import "./cards/update-card/update-card";
 import "./cards/vacuum-card/vacuum-card";
 
+// custom cards
+import "./cards/custom-universal-entity-card/custom-universal-entity-card";
+
 console.info(`%c🍄 Mushroom 🍄 - ${version}`, "color: #ef5350; font-weight: 700;");

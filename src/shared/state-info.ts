@@ -50,6 +50,7 @@ export class StateItem extends LitElement {
                 text-overflow: ellipsis;
                 overflow: hidden;
                 white-space: nowrap;
+                filter: var(--card-secondary-filter);
             }
             .multiline_secondary {
                 white-space: pre-wrap;

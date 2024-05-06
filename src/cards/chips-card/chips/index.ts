@@ -8,3 +8,13 @@ import "./conditional-chip";
 import "./light-chip";
 import "./alarm-control-panel-chip";
 import "./spacer-chip";
+// custom chips
+import "./custom-template-chip";
+import "./custom-air-quality-chip";
+import "./custom-last-triggered-binary-sensor-chip";
+import "./custom-binary-sensor-chip";
+import "./custom-battery-chip"
+import "./custom-multi-temperatures-chip";
+import "./custom-temperature-humidity-chip";
+import "./custom-climate-chip";
+import "./custom-fan-chip";
